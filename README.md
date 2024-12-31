@@ -36,23 +36,6 @@ Pour plus de détails, consultez le répertoire `docs` où se trouvent le sujet 
 
 ---
 
-## Installation
-1. Clonez le dépôt :
-   ```bash
-   git clone <URL_du_dépôt>
-   cd projet-bd-encheres
-   ```
-2. Configurez la base de données avec les scripts dans `sql/` :
-   ```sql
-   @creertables.sql;
-   @ajoutdedonnees.sql;
-   ```
-3. Compilez avec `make` :
-   ```bash
-   make
-   ```
-
----
 
 ## Utilisation
 1. Lancez le programme principal :
@@ -65,8 +48,8 @@ Pour plus de détails, consultez le répertoire `docs` où se trouvent le sujet 
 ---
 
 ## Auteurs
-- Mohamed Ziyad CHLIHI
 - Omar OUKHTITE
+- Mohamed Ziyad CHLIHI
 - Yassine OUAGGASS
 - Adil KASSAOUI
 
